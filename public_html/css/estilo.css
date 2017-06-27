@@ -1,0 +1,125 @@
+@font-face{
+    font-family: FaceLogo;
+    src: url("../_fonte/TitilliumWeb-Regular.ttf")
+}
+
+h1{
+    font-family: Arial;
+    font-size: 30pt;
+    color: black;
+
+} 
+
+h2{
+    font-family: Arial;
+    font-size: 15;
+    color: gray;
+}
+
+p{
+    text-align:  justify;
+    text-indent: 50px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+header#cabecalho{
+    border-bottom: 2px #606060 solid;
+    height: 150px;
+    
+}
+
+header#cabecalho h1{
+    font-family: FaceLogo, sans-serif;
+    font-size: 30pt;
+    color: maroon;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+    
+}
+
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    color: darkslategrey;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-top: 0px; 
+}
+
+body{
+    background-color: bisque;
+
+
+}
+
+/* Formatação da Interface*/
+
+div#interface{
+    width: 1000px;
+    background-color: blanchedalmond;
+    margin: -10px auto 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    padding: 10px 10px 10px 10px;
+}
+
+/* formatação de imagens com legendas */
+
+figure.foto-legenda{
+    border: 3px solid gray;
+}
+
+/* Formatação do Menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -19px;
+    left: 540px;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: darkgray;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: antiquewhite;
+}
+
+
+nav#menu h1{
+    display: none;
+
+}
+
+nav#menu a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+nav#menu a:hover{
+    color: gray;
+    text-decoration: underline; /* N curti sublinhar */
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
